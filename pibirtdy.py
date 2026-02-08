@@ -2,11 +2,9 @@ import streamlit as st
 import time
 import random
 
-# Page config for a better browser tab title/icon
 st.set_page_config(page_title="Birthday Celebration", page_icon="🎂")
 
 def main():
-    # Adding some custom CSS for a warm color palette
     st.markdown("""
         <style>
         .main {
@@ -20,7 +18,6 @@ def main():
 
     st.title("🎂 A Special Message...")
 
-    # A little bit of suspense goes a long way
     if "unlocked" not in st.session_state:
         st.session_state.unlocked = False
 
@@ -76,7 +73,7 @@ def main():
 
         # An interactive "Ginger Meter" just for fun
         st.divider()
-        ginger_level = st.slider("Nigger Intensity Today", 0, 100, 85)
+        ginger_level = st.slider("Niqa Intensity Today", 0, 100, 85)
         
         if ginger_level > 90:
             st.warning("Warning: Critical Niqqa Levels Detected. Go pick up cotton.")
