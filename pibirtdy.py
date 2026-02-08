@@ -29,7 +29,7 @@ def main():
                 st.rerun()
     else:
         st.balloons()
-        st.header("Happy New Year Niqqa!")
+        st.header("Happy Bortday Niqqa!")
 
         col1, col2 = st.columns([1, 2])
 
