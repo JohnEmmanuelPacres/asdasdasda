@@ -3,7 +3,7 @@ import time
 import random
 
 # Page config for a better browser tab title/icon
-st.set_page_config(page_title="Nigger Celebration", page_icon="🎂")
+st.set_page_config(page_title="Birthday Celebration", page_icon="🎂")
 
 def main():
     # Adding some custom CSS for a warm color palette
@@ -26,13 +26,13 @@ def main():
 
     if not st.session_state.unlocked:
         if st.button("Click to open your card"):
-            with st.spinner("Calculating nigger energy..."):
+            with st.spinner("Calculating niqqa energy..."):
                 time.sleep(1.5)
                 st.session_state.unlocked = True
                 st.rerun()
     else:
         st.balloons()
-        st.header("Happy New Year Nigga!")
+        st.header("Happy New Year Niqqa!")
 
         col1, col2 = st.columns([1, 2])
 
@@ -79,7 +79,7 @@ def main():
         ginger_level = st.slider("Nigger Intensity Today", 0, 100, 85)
         
         if ginger_level > 90:
-            st.warning("Warning: Critical Nigger Levels Detected. Go pick up cotton.")
+            st.warning("Warning: Critical Niqqa Levels Detected. Go pick up cotton.")
 
         if st.button("Celebrate Again"):
             st.snow()
